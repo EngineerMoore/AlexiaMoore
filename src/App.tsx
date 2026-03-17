@@ -1,10 +1,9 @@
-import './App.css'
+import HeroScetion from './components/HeroSection'
 
 function App() {
 
   return (
-    <>
-    </>
+    <HeroScetion/>
   )
 }
 

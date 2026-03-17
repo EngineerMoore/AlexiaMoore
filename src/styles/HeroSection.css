@@ -1,0 +1,27 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  flex-wrap: wrap;
+}
+.hero-text {
+  text-align: center;
+}
+.hero-image {
+  position: relative;
+  height: 98vh;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+}
+.splash {
+  width: 100%;
+}
+.headshot {
+  position: absolute;
+  top: -2%;
+  right: 0%;
+  width: 85%;
+}
