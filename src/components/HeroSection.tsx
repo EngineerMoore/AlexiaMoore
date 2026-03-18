@@ -8,6 +8,7 @@ const HeroScetion: React.FC = () => {
       <text className="hero-text emphasis-sleek">
         <h1>Software Developer</h1>
         <p>Your bridge between creativty and reality</p>
+        <button>Get Connected</button>
       </text>
       <div className="hero-image">
         <img className="headshot" alt="headshot" src={headshot} />

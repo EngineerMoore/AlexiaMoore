@@ -5,8 +5,11 @@
   gap: 8%;
   flex-wrap: wrap;
 }
-.hero-text {
-  text-align: center;
+.hero-text p {
+  font-family: unset;
+  color: rgb(var(--dark-lavender));
+  letter-spacing: 5px;
+  font-weight: 700;
 }
 .hero-image {
   position: relative;
