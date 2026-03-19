@@ -1,10 +1,12 @@
-import HeroScetion from './components/HeroSection'
+import HeroScetion from "./components/HeroSection";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-    <HeroScetion/>
-  )
+    <>
+      <Navbar />
+      <HeroScetion />
+    </>
+  );
 }
-
-export default App
+export default App;
