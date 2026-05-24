@@ -1,0 +1,14 @@
+.tech-icon-grid {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
