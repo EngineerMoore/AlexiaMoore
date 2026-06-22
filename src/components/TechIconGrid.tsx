@@ -1,6 +1,6 @@
-import React from 'react';
-import TechIcon from './TechIcon';
-import '../styles/TechIconGrid.css';
+import React from "react";
+import TechIcon from "./TechIcon";
+import "../styles/TechIconGrid.css";
 
 interface TechIconGridProps {
   icons: string[];
@@ -12,20 +12,21 @@ interface IconPosition {
 }
 
 const iconPositions: Record<string, IconPosition> = {
-  typescript: { x: 404.86, y: 156.94 },
-  aws: { x: 587, y: 158 },
-  node: { x: 754, y: 175 },
+  typescript: { x: 350, y: 200 },
+  aws: { x: 547, y: 158 },
+  node: { x: 894, y: 175 },
   express: { x: 697, y: 58 },
-  'socket-io': { x: 878, y: 140 },
-  react: { x: 1011, y: 54 },
-  css: { x: 1000, y: 217 },
-  vite: { x: 755, y: 465 },
-  'vs-code': { x: 293, y: 407 },
-  git: { x: 435, y: 444 },
-  javascript: { x: 579, y: 493 },
-  github: { x: 658, y: 368 },
-  figma: { x: 857, y: 350 },
-  html: { x: 303, y: 549 }
+  "socket-io": { x: 1090, y: 60 },
+  react: { x: 697, y: 230 },
+  css: { x: 1080, y: 200 },
+  vite: { x: 850, y: 465 },
+  "vs-code": { x: 250, y: 500 },
+  git: { x: 435, y: 550 },
+  javascript: { x: 600, y: 493 },
+  github: { x: 738, y: 580 },
+  figma: { x: 1060, y: 350 },
+  html: { x: 90, y: 590 },
+  claude: { x: 300, y: 690 },
 };
 
 const TechIconGrid: React.FC<TechIconGridProps> = ({ icons }) => {
@@ -40,10 +41,8 @@ const TechIconGrid: React.FC<TechIconGridProps> = ({ icons }) => {
             key={icon}
             className="tech-icon-wrapper"
             style={{
-              position: 'absolute',
               left: `${position.x}px`,
               top: `${position.y}px`,
-              transform: 'translate(-50%, -50%)'
             }}
           >
             <TechIcon iconName={icon} alt={icon} />

@@ -1,5 +1,6 @@
 import Contact from "./components/Contact";
 import HeroScetion from "./components/HeroSection";
+import ProjectsContainer from "./components/ProjectsContainer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <HeroScetion />
+      <ProjectsContainer />
       <Contact />
     </>
   );

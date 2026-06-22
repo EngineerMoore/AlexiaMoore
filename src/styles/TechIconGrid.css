@@ -1,14 +1,11 @@
 .tech-icon-grid {
   position: relative;
-  width: 100%;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 45%;
+  margin: 0 auto;
 }
 
 .tech-icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  transform: translate(-180px, 50px);
+  scale: 1.5;
 }

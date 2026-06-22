@@ -1,0 +1,91 @@
+.projects-container {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  padding: 0 40px;
+  background: linear-gradient(
+    180deg,
+    rgb(195, 201, 222) 0%,
+    rgb(0, 0, 0) 50%,
+    rgb(195, 201, 222) 100%
+  );
+  background-image: url("../assets/iridescent-bubble-1-835x410.png");
+  background-size: 90vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.projects-header {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 48px;
+  color: rgb(125, 100, 202);
+  margin: 0 0 40px 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.project-card-wrapper {
+  position: absolute;
+  z-index: 10;
+}
+
+.project-card-wrapper.upper-left {
+  width: 330px;
+  top: 95px;
+  left: 140px;
+  transform: rotate(0.24rad);
+}
+
+.project-card-wrapper.lower-right {
+  width: 315px;
+  bottom: 115px;
+  right: 152px;
+  transform: rotate(-0.34rad);
+}
+
+.projects-container.splatter {
+  animation: splatter 0.6s ease-out;
+}
+
+@keyframes splatter {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .projects-container {
+    background-image: none;
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .projects-header {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .project-card-wrapper {
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-card-wrapper.upper-left,
+  .project-card-wrapper.lower-right {
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
+}
