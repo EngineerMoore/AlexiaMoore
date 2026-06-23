@@ -1,0 +1,9 @@
+.tech-icon-grid {
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.tech-icon-wrapper {
+  position: absolute;
+}

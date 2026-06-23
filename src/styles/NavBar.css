@@ -1,0 +1,20 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  z-index: 1;
+}
+li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  font-size: 1.5em;
+  color: rgb(90, 47, 160);
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: overline;
+}

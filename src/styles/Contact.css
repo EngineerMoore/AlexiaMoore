@@ -1,0 +1,73 @@
+.contact {
+  background-image: url("../assets/crinkled-purple-wave.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 5%;
+  width: 45vw;
+}
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-link img {
+  object-fit: fill;
+}
+.contact-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  min-width: max-content;
+  gap: 20px;
+  padding-bottom: 90px;
+}
+.contact-form > * {
+  margin: 5px 0;
+}
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  border: none;
+  padding: 0;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  font-family: "Julius Sans one", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+input,
+textarea {
+  background-color: rgba(226, 212, 239, 0.5);
+  border-radius: 20px;
+  border: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: rgb(var(--dark-lavender)) 0 0 10px 1px;
+  padding: 10px;
+  font-family: "lexend", sans-serif;
+  letter-spacing: 1px;
+  font-size: medium;
+}
+textarea {
+  aspect-ratio: 3/1;
+}
+input:focus,
+textarea:focus {
+  outline-color: white;
+}
+.contact-form > button {
+  background-color: rgb(var(--dark-lavender));
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}

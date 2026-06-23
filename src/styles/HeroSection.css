@@ -1,0 +1,30 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  flex-wrap: wrap;
+}
+.hero-text p {
+  font-family: unset;
+  color: rgb(var(--dark-lavender));
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.hero-image {
+  position: relative;
+  height: 98vh;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+}
+.splash {
+  width: 100%;
+}
+.headshot {
+  position: absolute;
+  top: -2%;
+  right: 0%;
+  width: 85%;
+}
