@@ -4,7 +4,7 @@ import "../styles/heroSection.css";
 
 const HeroScetion: React.FC = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <text className="hero-text emphasis-sleek">
         <h1>Software Developer</h1>
         <p>Your bridge between creativty and reality</p>

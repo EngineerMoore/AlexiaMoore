@@ -52,7 +52,7 @@ const ProjectsContainer: React.FC = () => {
 
   return (
     <>
-      <div ref={containerRef} className="projects-container">
+      <div ref={containerRef} className="projects-container" id="projects">
         <h1 className="projects-header">FULLSTACK PROJECTS</h1>
 
         <TechIconGrid icons={allIcons} />
