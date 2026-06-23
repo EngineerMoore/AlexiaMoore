@@ -12,21 +12,21 @@ interface IconPosition {
 }
 
 const iconPositions: Record<string, IconPosition> = {
-  typescript: { x: 350, y: 200 },
-  aws: { x: 547, y: 158 },
-  node: { x: 894, y: 175 },
-  express: { x: 697, y: 58 },
-  "socket-io": { x: 1090, y: 60 },
-  react: { x: 697, y: 230 },
-  css: { x: 1080, y: 200 },
-  vite: { x: 850, y: 465 },
-  "vs-code": { x: 250, y: 500 },
-  git: { x: 435, y: 550 },
-  javascript: { x: 600, y: 493 },
-  github: { x: 738, y: 580 },
-  figma: { x: 1060, y: 350 },
-  html: { x: 90, y: 590 },
-  claude: { x: 300, y: 690 },
+  typescript: { x: 40, y: 190 },
+  aws: { x: 160, y: 240 },
+  claude: { x: 280, y: 180 },
+  express: { x: 300, y: 70 },
+  node: { x: 400, y: 240 },
+  "socket-io": { x: 480, y: 160 },
+  react: { x: 630, y: 100 },
+  css: { x: 580, y: 240 },
+  html: { x: -150, y: 500 },
+  git: { x: 0, y: 550 },
+  "vs-code": { x: 20, y: 407 },
+  javascript: { x: 150, y: 493 },
+  github: { x: 200, y: 400 },
+  vite: { x: 300, y: 465 },
+  figma: { x: 400, y: 400 },
 };
 
 const TechIconGrid: React.FC<TechIconGridProps> = ({ icons }) => {

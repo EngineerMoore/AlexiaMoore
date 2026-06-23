@@ -15,13 +15,13 @@
 
 .project-card-image {
   width: 100%;
-  height: 160px;
+  height: 108px;
   object-fit: cover;
   display: block;
 }
 
 .project-card-content {
-  padding: 20px;
+  padding: 12px;
   flex: 1;
   display: flex;
   flex-direction: column;

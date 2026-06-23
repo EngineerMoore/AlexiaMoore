@@ -18,12 +18,11 @@
 
 .projects-header {
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 40%;
+  left: 36%;
   font-family: "Julius Sans One", sans-serif;
   font-size: 48px;
   color: rgb(125, 100, 202);
-  margin: 0 0 40px 0;
   text-align: center;
   z-index: 5;
 }
@@ -34,16 +33,16 @@
 }
 
 .project-card-wrapper.upper-left {
-  width: 330px;
-  top: 95px;
-  left: 140px;
-  transform: rotate(0.24rad);
+  width: 260px;
+  top: 64px;
+  left: 95px;
+  transform: rotate(0.23rad);
 }
 
 .project-card-wrapper.lower-right {
-  width: 315px;
-  bottom: 115px;
-  right: 152px;
+  width: 248px;
+  bottom: 76px;
+  right: 104px;
   transform: rotate(-0.34rad);
 }
 
