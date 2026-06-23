@@ -33,17 +33,17 @@
 }
 
 .project-card-wrapper.upper-left {
-  width: 260px;
+  width: 244px;
   top: 64px;
-  left: 95px;
+  left: 112px;
   transform: rotate(0.23rad);
 }
 
 .project-card-wrapper.lower-right {
-  width: 248px;
-  bottom: 76px;
-  right: 104px;
-  transform: rotate(-0.34rad);
+  width: 236px;
+  bottom: 72px;
+  right: 116px;
+  transform: rotate(-0.335rad);
 }
 
 .projects-container.splatter {

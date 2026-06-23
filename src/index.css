@@ -5,6 +5,9 @@
   --dark-lavender: 125, 100, 202;
   height: 100%;
 }
+body {
+  margin: 0;
+}
 p,
 button {
   font-family: "Lexend", sans-serif;
