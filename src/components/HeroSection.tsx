@@ -1,7 +1,7 @@
 import paintSplash from "../assets/paint-splash-static.png";
 import headshot from "../assets/headshot-2025-transparent-bg-grey-splash-edge.png";
 import { useNavigate } from "react-router-dom";
-import "../styles/heroSection.css";
+import "../styles/HeroSection.css";
 
 const HeroScetion: React.FC = () => {
   const navigate = useNavigate();
