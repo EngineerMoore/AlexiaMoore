@@ -148,3 +148,5 @@ Software Engineer
 LinkedIn: https://www.linkedin.com/in/alexia-moore-/
 
 GitHub: https://github.com/EngineerMoore
+
+Portfolio: https://alexiamoore.netlify.app/
