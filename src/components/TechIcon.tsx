@@ -9,11 +9,7 @@ interface TechIconProps {
 const TechIcon: React.FC<TechIconProps> = ({ iconName, alt }) => {
   const iconUrl = new URL(`../assets/${iconName}.svg`, import.meta.url).href;
 
-  return (
-    <div className="tech-icon-container">
-      <img src={iconUrl} alt={alt} />
-    </div>
-  );
+  return <img src={iconUrl} alt={alt} />;
 };
 
 export default TechIcon;

@@ -1,49 +1,47 @@
 .projects-container {
+  --distance-from-side: 48px;
+  --distance-from-top-bottom: 60px;
   position: relative;
-  height: 100vh;
-  min-height: 700px;
-  padding: 0 40px;
-  background: linear-gradient(
-    180deg,
-    rgb(195, 201, 222) 0%,
-    rgb(0, 0, 0) 50%,
-    rgb(195, 201, 222) 100%
-  );
-  background-image: url("../assets/iridescent-bubble-1-835x410.png");
-  background-size: 90vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-.projects-header {
-  position: absolute;
-  top: 40%;
-  left: 36%;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 48px;
-  color: rgb(125, 100, 202);
-  text-align: center;
-  z-index: 5;
+  min-height: 100vmin;
+  display: flex;
 }
 
 .project-card-wrapper {
-  position: absolute;
-  z-index: 10;
+  --project-card-wrapper-distance: 0.23rad;
+  --project-card-wrapper-rotation: -0rad;
+  --project-card-top: 16px;
+  --project-card-left: 16px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24%;
+  min-width: 432px;
 }
 
 .project-card-wrapper.upper-left {
-  width: 244px;
-  top: 64px;
-  left: 112px;
-  transform: rotate(0.23rad);
+  background-image: url("../assets/Iridescent-project-container.png");
+  rotate: var(--project-card-wrapper-rotation);
+  left: var(--distance-from-side);
+  order: -1;
+}
+
+.upper-left > .project-card {
+  top: var(--project-card-top);
+  left: var(--project-card-left);
 }
 
 .project-card-wrapper.lower-right {
-  width: 236px;
-  bottom: 72px;
-  right: 116px;
-  transform: rotate(-0.335rad);
+  background-image: url("../assets/Iridescent-project-container.png");
+  rotate: calc(var(--project-card-wrapper-rotation) + 180deg);
+  right: var(--distance-from-side);
+  bottom: calc(var(--distance-from-top-bottom) + 16px);
+  order: 1;
+}
+
+.lower-right > .project-card {
+  rotate: 180deg;
+  top: var(--project-card-top);
+  left: var(--project-card-left);
 }
 
 .projects-container.splatter {
