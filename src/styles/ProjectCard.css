@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 70%;
 }
 
 .project-card-image {
@@ -29,19 +30,18 @@
 
 .project-card-content h3 {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 20px;
+  font-size: 1.5em;
   color: rgb(125, 100, 202);
   margin: 0 0 10px 0;
 }
 
 .project-card-content p {
-  font-size: 14px;
   margin: 0;
   flex: 1;
 }
 
 .project-card:hover {
-  transform: scale(1.08);
+  transform: scale(1.02);
   box-shadow: 0 12px 48px rgba(125, 100, 202, 0.5);
 }
 

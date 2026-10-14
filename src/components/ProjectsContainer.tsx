@@ -51,29 +51,23 @@ const ProjectsContainer: React.FC = () => {
   }, [hasSplattered]);
 
   return (
-    <>
-      <div ref={containerRef} className="projects-container" id="projects">
-        <h1 className="projects-header">FULLSTACK PROJECTS</h1>
-
-        <TechIconGrid icons={allIcons} />
-
-        <div className="project-card-wrapper upper-left">
-          <ProjectCard
-            title={projectsData[0].title}
-            description={projectsData[0].description}
-            coverImage={projectsData[0].coverImage}
-          />
-        </div>
-
-        <div className="project-card-wrapper lower-right">
-          <ProjectCard
-            title={projectsData[1].title}
-            description={projectsData[1].description}
-            coverImage={projectsData[1].coverImage}
-          />
-        </div>
-      </div>
-    </>
+    <section ref={containerRef} className="projects-container" id="projects">
+      <article className="project-card-wrapper upper-left">
+        <ProjectCard
+          title={projectsData[0].title}
+          description={projectsData[0].description}
+          coverImage={projectsData[0].coverImage}
+        />
+      </article>
+      <TechIconGrid icons={allIcons} />
+      <article className="project-card-wrapper lower-right">
+        <ProjectCard
+          title={projectsData[1].title}
+          description={projectsData[1].description}
+          coverImage={projectsData[1].coverImage}
+        />
+      </article>
+    </section>
   );
 };
 
